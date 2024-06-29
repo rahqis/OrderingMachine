@@ -17,6 +17,7 @@ const setupDeepgram = (socket) => {
     punctuate: true,
     smart_format: true,
     model: "nova",
+    filler_words: true
   });
 
   if (keepAlive) clearInterval(keepAlive);
